@@ -35,7 +35,7 @@ function Sender() {
           Naira to SAR Exchange Rate
         </h1>
 
-        {loading ? (
+        {loading1 ? (
           <p className="text-center text-gray-600">Fetching exchange rate...</p>
         ) : error ? (
           <p className="text-center text-red-500">Error fetching data</p>
