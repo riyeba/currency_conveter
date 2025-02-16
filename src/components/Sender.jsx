@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 function Sender() {
   const [rate, setRate] = useState(null);
   const [amount, setAmount] = useState("");
-  const [loading, setLoading] = useState(true);
+  const [loading1, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ function Sender() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-6">
-      {loading? "Please wait" : <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-md">
+      {loading1? "Please wait" : <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-md">
         <h1 className="text-xl font-semibold text-gray-800 text-center mb-4">
           Naira to SAR Exchange Rate
         </h1>
