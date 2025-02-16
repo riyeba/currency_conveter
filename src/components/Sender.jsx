@@ -29,7 +29,8 @@ function Sender() {
     : "Enter a valid number";
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-6">
+    
+    <div className="h-screen flex flex-col items-center justify-center bg-gray-100 p-6 ">
       {loading1? "Please wait" : <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-md">
         <h1 className="text-xl font-semibold text-gray-800 text-center mb-4">
           Naira to SAR Exchange Rate
