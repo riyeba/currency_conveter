@@ -59,7 +59,7 @@ function Sender() {
         </div>
 
         <button
-          className="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 rounded-lg transition duration-300"
+          className="w-full mt-4 bg-blue-700 hover:bg-blue-700 text-white font-medium py-2 rounded-lg transition duration-300"
         >
          NSU-KSU-CONVERTER
         </button>
