@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"; // Ensure you have react-router-dom ins
 
 function Footer() {
   return (
-    <footer className="bg-blue-600 text-white py-4 relative w-full shadow-md h-">
+    <footer className="bg-blue-600 text-white py-4 fixed bottom-0 w-full shadow-md">
       <div className="container mx-auto text-center">
         <div className="flex justify-center space-x-6 mb-2">
           <Link to="https://web.facebook.com/profile.php?id=100079060510768" target="_blank" rel="noopener noreferrer">
